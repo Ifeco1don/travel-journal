@@ -1,4 +1,4 @@
-export default function Header () {
+export default function Header() {
   return (
     <>
       <header>
@@ -6,5 +6,5 @@ export default function Header () {
         <p>my travel journal.</p>
       </header>
     </>
-  )
+  );
 }
