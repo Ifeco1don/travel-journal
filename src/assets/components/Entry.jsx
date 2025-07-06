@@ -8,7 +8,7 @@ export default function Entry(props) {
       </div>
       <div className="details-container">
         <div className="first-line">
-          <img src="/images/google-icon.png" alt="Google pointer" />
+          <img src={googleIcon} alt="Google pointer" />
           <p className="country">{props.one.country}</p>
           <a href={props.one.googleMapsLink}>View on Google Maps</a>
         </div>
