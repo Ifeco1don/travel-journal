@@ -1,3 +1,5 @@
+import googleIcon from "../images/google-icon.png";
+
 export default function Entry(props) {
   return (
     <div className="entries">
